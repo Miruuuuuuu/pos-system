@@ -1,0 +1,67 @@
+╔══════════════════════════════════════════════════════════════╗
+║           POS SYSTEM - QUICK START GUIDE                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+STEP 1: Install Frontend Dependencies
+--------------------------------------
+Open Command Prompt here and run:
+    cd client
+    npm install
+    cd ..
+
+OR double-click: install.bat
+
+
+STEP 2: Start MongoDB
+----------------------
+Open a NEW Command Prompt and run:
+    mongod
+
+Keep this window open!
+
+
+STEP 3: Add Sample Data (First Time Only)
+------------------------------------------
+Double-click: seed.bat
+
+
+STEP 4: Start the Application
+------------------------------
+Double-click: start.bat
+
+Two windows will open:
+- Backend: http://localhost:5000
+- Frontend: http://localhost:3000
+
+
+STEP 5: Login
+-------------
+Open browser to: http://localhost:3000
+
+Email: admin@pos.com
+Password: admin123
+
+
+FEATURES TO TEST:
+-----------------
+✓ Dashboard - View sales stats and charts
+✓ Products - Add/edit products, manage inventory
+✓ Sales - Create new sales, process payments
+✓ Customers - Manage customer database
+✓ Reports - View analytics and trends
+✓ Settings - Manage users (Admin only)
+
+
+TROUBLESHOOTING:
+----------------
+Problem: MongoDB connection error
+Solution: Make sure mongod is running
+
+Problem: Port already in use
+Solution: Close other apps or change port in .env
+
+Problem: Module not found
+Solution: Run "npm install" in pos-system folder
+
+
+Need help? Check SETUP-GUIDE.md for detailed instructions.

@@ -1,0 +1,17 @@
+C:\Users\Abdullah_Mir\Desktop\POS Kiro\pos-system\node_modules\express\lib\router\index.js:469
+      throw new TypeError('Router.use() requires a middleware function but got a ' + gettype(fn))
+      ^
+
+TypeError: Router.use() requires a middleware function but got a Object
+    at router.use (C:\Users\Abdullah_Mir\Desktop\POS Kiro\pos-system\node_modules\express\lib\router\index.js:469:13)
+    at app.<anonymous> (C:\Users\Abdullah_Mir\Desktop\POS Kiro\pos-system\node_modules\express\lib\application.js:227:21)
+    at Array.forEach (<anonymous>)
+    at app.use (C:\Users\Abdullah_Mir\Desktop\POS Kiro\pos-system\node_modules\express\lib\application.js:224:7)
+    at Object.<anonymous> (C:\Users\Abdullah_Mir\Desktop\POS Kiro\pos-system\server\index.js:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+
+Node.js v24.11.1
